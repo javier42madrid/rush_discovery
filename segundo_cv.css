@@ -1,0 +1,193 @@
+.main {
+    background-image: url('./images/53030.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -50px;
+    position: relative;
+}
+body {
+    margin: 0;
+    padding: 0px;
+}
+.content {
+    width: 100%;
+    height: 150px;
+}
+/***********  BACKGROUND DEL CONTENIDO ***********/
+.contenido {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    opacity: 0.9;
+    margin: 0;
+}
+.back_esp {
+    background-image: url('./images/logo42.png');
+    opacity: 0.9;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/************ FIN DEL BACKGROUND *****************/
+
+/************ 1er CV  ***************************/
+
+.carta{
+    width: 25%;
+    margin-left: 37.5%;
+    border-style: solid;
+    border-color:black;
+    border-width: 5px;
+    margin-top: 10px;
+}
+.golden {
+    width: 100%;
+}
+
+/********************* FIN ***********************/
+
+/************ VISTA "ABOUT" (2º CV) **************/
+
+
+/* Logo de 42 madrid */
+
+.logo {
+    width: 30%;
+}
+
+/* tabla de la foto + info */
+
+.principal {
+    width:30%;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 2%;
+}
+tr {
+    text-align: center;
+}
+
+/******* FIN DE VISTA ABOUT ********/
+
+/******* VISTA EXPERIENCE *********/
+
+
+.exp_contenido {
+    width: 100%;
+    height: 800px;
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 2px;
+    opacity: 0.9;
+    margin: 0;
+}
+.exp_contenido li{
+    list-style: none;
+}
+
+.exp_contenido li i {
+    color:red;
+}
+/****
+.tabla_exp {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.exp_list {
+    color: red;
+}
+.exp_list li {
+    background-image: url('./images/validation.png');
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+}
+.exp_content {
+    margin-top: 5px;
+}
+.exp_title {
+    margin-top: 5px;
+}
+******************/
+
+/******* FIN VISTA EXPERIENCE ********/
+
+
+/******* VISTA CONTACTS ************/
+.row {
+    width: 100%;
+}
+.tabla_cont {
+    border-collapse: separate;
+    border-spacing: 50px;
+    margin-left: 25%;
+}
+.tabla_cont td {
+    text-align: start;
+}
+
+.tabla_cont_dos {
+    border-collapse: separate;
+    border-spacing: 50px;
+}
+.tabla_cont_dos td {
+    text-align: start;
+}
+a {
+    color:black
+}
+a:hover {
+    color:blue
+}
+/******* FIN DE VISTA CONTACTS ********/
+
+/*******  BARRA DEL NAVEGADOR ********/
+
+/* Lista del menu */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul ul {
+    display: none;
+    margin-left: 150px;
+}
+
+/* Como se despliegan los submenús y su anchura */
+ul ul li {
+    float: left;
+    width: 200px;
+    font-weight: 800;
+}
+ul li a {
+    color:black;
+}
+ul ul li a {
+    color:black;
+}
+ul li a:hover {
+    color:red;
+}
+ul ul li a:hover {
+    color:red;
+}
+
+ul li:hover > ul {
+    display: inline-block;
+}
+
+/******* FIN BARRA DE NAVEGACION ********/
